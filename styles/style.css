@@ -1,0 +1,160 @@
+nav {
+    
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* hitted navbar */
+html[data-scroll='not-top'] nav{
+  background-color: #f8f9f9;;
+  height: 50px;
+}
+
+nav .content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    color: #191919;
+    padding: 10px 15px;
+    font: 500 12px/24px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    transition: color .3s ease;
+}
+
+nav ul li a.active, nav ul li a:hover  {
+    color: #10c9c3;
+}
+
+header {
+    background-image: url(../assets/images/backgraund.jpg);
+    height: 100vh;
+}
+
+header .content {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .header-content {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header-content h1 {
+    color: #1d1d1d;
+    font: 500 38px/48px 'Montserrat', sans-serif;
+    letter-spacing: 0.38px
+}
+
+header .header-content p {
+    color: #787878;
+    margin: 30px 0 40px 0 ;
+    font: 400 18px/28px 'Montserrat', sans-serif;
+    letter-spacing: 0.09px;
+}
+
+section.about-us {
+    background: white;
+    padding: 100px 0;
+}
+
+section.about-us .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.about-us .content h2 {
+    color: #191919;
+    font: 500 30px 'Montserrat', sans-serif;
+}
+
+section.about-us .content p {
+    color: #787878;
+    width: 55%;
+    text-align: center;
+    margin: 40px 0;
+    font: 400 16px/24px 'Montserrat', sans-serif;
+}
+
+section.skills {
+    background: #f8f9f9;
+}
+
+section.skills .content {
+    display: flex;
+}
+
+section.skills .skills-content {
+    padding: 100px 85px 100px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+section.skills h2 {
+    margin-bottom: 40px;
+    font: 500 30px 'Montserrat', sans-serif;
+}
+
+section.skills .progress-group:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+section.skills .progress-group h4 {
+    margin-bottom: 20px;
+    font: 500 12px 'Montserrat', sans-serif;
+}
+
+section.skills .progress-bar {
+    background: #d8d8d8;
+    height: 3px;
+    width: 100%;
+}
+
+section.skills .progress-bar > div {
+    height: 100%;
+    background: #10c9c3;
+}
+
+.progress-bar > .progress-bar-65 {
+    width: 65%;
+}
+
+.progress-bar > .progress-bar-75 {
+    width: 75%;
+}
+
+.progress-bar > .progress-bar-90 {
+    width: 90%;
+}
+
+section.skills .skills-image {
+    width: 50%;
+}
+
+section.skills .skills-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
