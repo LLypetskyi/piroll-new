@@ -270,25 +270,27 @@ section.video{
 }
 .content{
   position: relative;
-  z-index: 1;
 }
 
 .video{
-  z-index: 2;
+  z-index: 2; 
 }
 section.video .content video{
   width: 100%
-  }
+}
 
 .play-button{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 3;
-  top: 50%;
-  left: 50%;
   width: 85px;
   height: 85px;
   border-radius: 50%;
   background-color: #74dfdb;
-
 }
 /* .play-button img{
   width: 85px;
