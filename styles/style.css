@@ -268,20 +268,29 @@ section.process .content-process p {
 section.video{
   padding-bottom: 100px;
 }
-.content-video{
+.content{
   position: relative;
+  z-index: 1;
 }
-section.video .content-video video{
+
+.video{
+  z-index: 2;
+}
+section.video .content video{
   width: 100%
-}
+  }
 
 .play-button{
- /* position: relative;
- top: 50%;
- left: 50%; */
-
-}
-.play-button img{
+  z-index: 3;
+  top: 50%;
+  left: 50%;
   width: 85px;
   height: 85px;
+  border-radius: 50%;
+  background-color: #74dfdb;
+
 }
+/* .play-button img{
+  width: 85px;
+  height: 85px;
+} */
