@@ -411,15 +411,20 @@ line-height: 1.6;
 letter-spacing: 0.08px;
 }
 
-footer .footer-content-links{
+.footer-content-links{
 display: flex;
+}
+
+
+.footer-content-links .media {
+  padding: 0 60px;
+}
+.footer-content-links .menu ul li a,
+.footer-content-links .media ul li a,
+.footer-content-links .social-networks ul li a {
 color: #bcbcbc;
 text-decoration:none;
 font: 15px 'NunitoSans', sans-serif;
 line-height: 1.6;
 letter-spacing: 0.08px;
-}
-
-.footer-content-links .media{
-  padding: 0 60px;
 }
