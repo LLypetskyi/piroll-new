@@ -202,7 +202,7 @@ section.examples .examples-item .eye img {
   width: 50px;
 }
 section.examples .examples-item:hover .eye {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
   opacity: 1;
 }
 section.examples .examples-item>img {
