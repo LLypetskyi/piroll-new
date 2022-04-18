@@ -324,13 +324,15 @@ section.service .service-content .service-item img {
 section.quote {
   background-color: #10c9c3;
 }
-section.quote .quote-content {
+/* css styles for case without slider component  */
+
+/* section.quote .quote-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 180px 180px 100px 180px;
-}
-section.quote .quote-content h2 {
+} */
+/* section.quote .quote-content h2 {
   color: #ffffff;
   width: 80%;
   text-align: center;
@@ -346,7 +348,51 @@ section.quote .quote-content p {
   line-height: 3;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+} */
+
+
+/* css styles for case with slider component  */
+section.quote .quote-content {
+  /* width: 100%; */
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  padding-top: 180px;
+  padding-bottom: 100px;
 }
+.quote-item{
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.quote .quote-content .quote-item h2 {
+  color: #ffffff;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 40px;
+  font: 500 30px 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.24px;
+}
+section.quote .quote-content .quote-item p {
+  color: #ffffff;
+  text-align: center;
+  font: 500 12px 'Montserrat', sans-serif;
+  line-height: 3;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+section.quote .slider a {
+transition: 2ms;
+}
+
+
+
 section.quote .slider {
   display: flex;
   align-items: center;
