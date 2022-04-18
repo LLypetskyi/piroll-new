@@ -350,7 +350,6 @@ section.quote .quote-content p {
   text-transform: uppercase;
 } */
 
-
 /* css styles for case with slider component  */
 section.quote .quote-content {
   /* width: 100%; */
@@ -390,9 +389,6 @@ section.quote .quote-content .quote-item p {
 section.quote .slider a {
 transition: 2ms;
 }
-
-
-
 section.quote .slider {
   display: flex;
   align-items: center;
